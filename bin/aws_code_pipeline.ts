@@ -5,7 +5,7 @@ import { AwsCodePipelineStack } from '../lib/aws_code_pipeline-stack';
 
 const app = new cdk.App();
 new AwsCodePipelineStack(app, 'AwsCodePipelineStack', {
-  env: { account: '928136515247', region: 'us-east-1' },
+  env: { account: '928136515247', region: 'us-east-1' }
 
 });
 
