@@ -2,6 +2,17 @@
 
 AWS auto pulled from github and started the build process as expected:
 
+![](pipeline_demo.gif)
+
+What it did: 
+
+CodePipeline:
+> Source, Build, UpdatePipeline, Assets: Succeeded
+> 
+> test lambda stack: succeeded
+> 
+> manually approval -> approved -> prod test lambda stack also succeeded
+
 CloudFormation:
 >prod-LambdaStack
 >
@@ -15,13 +26,6 @@ CloudFormation:
 >
 >UPDATE_COMPLETE	-2023-03-28 00:31:20 UTC-0700
 
-CodePipeline:
-> Source, Build, UpdatePipeline, Assets: Succeeded
-> 
-> test lambda stack: succeeded
-> 
-> manually approval -> approved -> prod test lambda stack also succeeded
-
 Lambda:
 > Function Name,                                 Package Type,  Runtime,       Last Modified  
 >  
@@ -29,4 +33,5 @@ Lambda:
 > 
 > test-LambdaStack-LambdaFunctionBF21E41F-yBOzD9yiKf6A	-	Zip	Node.js 18.x	- 9 minutes ago
 
-![](pipeline_demo.gif)
+
+
