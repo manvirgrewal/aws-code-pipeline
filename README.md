@@ -1,4 +1,4 @@
-# ci/cd aws-code-pipeline
+# CDK CI/CD Demo aws-code-pipeline
 
 AWS auto pulled from github and started the build process as expected:
 
