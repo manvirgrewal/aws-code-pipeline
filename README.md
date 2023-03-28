@@ -1,15 +1,19 @@
 # ci/cd aws-code-pipeline
 
-tested the code:
+AWS auto pulled from github and started the build process as expected:
+
 CloudFormation:
-prod-LambdaStack
-CREATE_COMPLETE	2023-03-28 01:14:46 UTC-0700	-
-
-test-LambdaStack
-CREATE_COMPLETE	2023-03-28 01:11:34 UTC-0700	-
-
-AwsCodePipelineStack
-UPDATE_COMPLETE	2023-03-28 00:31:20 UTC-0700
+>prod-LambdaStack
+>
+>CREATE_COMPLETE	-2023-03-28 01:14:46 UTC-0700	-
+>
+>test-LambdaStack
+>
+>CREATE_COMPLETE	-2023-03-28 01:11:34 UTC-0700	-
+>
+>AwsCodePipelineStack
+>
+>UPDATE_COMPLETE	-2023-03-28 00:31:20 UTC-0700
 
 CodePipeline:
 > Source, Build, UpdatePipeline, Assets: Succeeded
