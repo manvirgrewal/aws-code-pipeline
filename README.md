@@ -19,7 +19,8 @@ CodePipeline:
 > manually approval -> approved -> prod test lambda stack also succeeded
 
 Lambda:
-> Function Name                                 Package Type  Runtime       Last Modified  
+> Function Name,                                 Package Type,  Runtime,       Last Modified  
 >  
-> prod-LambdaStack-LambdaFunctionBF21E41F-NIkwaW9o9QP2	-	Zip	Node.js 18.x	6 minutes ago
-> test-LambdaStack-LambdaFunctionBF21E41F-yBOzD9yiKf6A	-	Zip	Node.js 18.x	9 minutes ago
+> prod-LambdaStack-LambdaFunctionBF21E41F-NIkwaW9o9QP2	-	Zip	Node.js 18.x	- 6 minutes ago
+> 
+> test-LambdaStack-LambdaFunctionBF21E41F-yBOzD9yiKf6A	-	Zip	Node.js 18.x	- 9 minutes ago
